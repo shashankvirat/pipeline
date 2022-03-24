@@ -5,13 +5,13 @@ pipeline {
             steps {
               parallel(
               a: {
-              sh echo 'im shashank c'
+              sh  'im shashank c'
             },
               b: {      
-              sh echo 'im from mysor'
+              sh 'im from mysor'
             },
               c: {      
-              sh echo 'im learning jenkine'
+              sh  'im learning jenkine'
             }
           )     
        }
